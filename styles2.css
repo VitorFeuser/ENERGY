@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: 'New Amsterdam', sans-serif;
+}
+
+
+body.redbull {
+    background-color: rgba(0, 153, 255, 0.5); 
+}
+
+
+body.monster {
+    background-color: rgba(0, 255, 0, 0.5); 
+}
+
+
+body.bally {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button.back {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}

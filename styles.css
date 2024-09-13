@@ -1,11 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "New Amsterdam", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .slider {
@@ -37,6 +43,7 @@ body {
 
 #slide-1 {
     background-image: url('img/gelo.jpg');
+    
 }
 
 #slide-2 {
@@ -57,8 +64,8 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgba(104, 100, 100, 0.5);
+    color: #eee;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -73,17 +80,15 @@ button.next {
     right: 10px;
 }
 
-button.more-info {
-    margin-top: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+
+.bull {
+    color: red;
 }
 
-button.more-info:hover {
-    background-color: #0056b3;
+.m {
+    color: rgb(0, 255, 0);
+}
+
+.b {
+    color: rgb(0, 0, 0);
 }
